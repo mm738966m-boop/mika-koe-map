@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>みかさんの「声の仕事」地図</title>
+<meta name="description" content="ボイストレーナーみかさんへ。誰に・何を・どう届けるかの地図（森川より）">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta property="og:title" content="みかさんの「声の仕事」地図">
+<meta property="og:description" content="リールを誰に向けるか、商品をどう並べるか、最初の90日で何を確かめるか。森川とAIチームで考えた案です。">
+<meta property="og:url" content="https://mm738966m-boop.github.io/mika-koe-map/">
+<meta property="og:image" content="https://mm738966m-boop.github.io/mika-koe-map/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#0E7C86;--deep:#0A5A62;--ink:#1C3236;--ink2:#4A6468;--soft:#EEF6F7;--line:#D5E4E6;--gold:#8A6212;--goldfill:#D9A441;--goldbg:#FBF4E3;--bg:#fff;--card:#fff;--rose:#B9503F;--rosebg:#FBEDEA;--mute:#EEF1F2;--onaccent:#fff;--ongold:#1C3236;
+--f:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--teal:#4FB8C1;--deep:#7FD3DA;--ink:#E6F1F2;--ink2:#B5C9CC;--soft:#12272A;--line:#27454A;--gold:#E2B85A;--goldfill:#D9A441;--goldbg:#2C2410;--bg:#0C1A1C;--card:#122426;--rose:#F0917F;--rosebg:#3A1C17;--mute:#1A2C2F;--onaccent:#0C1A1C;--ongold:#0C1A1C;color-scheme:dark}}
+:root[data-theme="dark"]{--teal:#4FB8C1;--deep:#7FD3DA;--ink:#E6F1F2;--ink2:#B5C9CC;--soft:#12272A;--line:#27454A;--gold:#E2B85A;--goldfill:#D9A441;--goldbg:#2C2410;--bg:#0C1A1C;--card:#122426;--rose:#F0917F;--rosebg:#3A1C17;--mute:#1A2C2F;--onaccent:#0C1A1C;--ongold:#0C1A1C;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f);font-size:18px;font-weight:500;line-height:1.85;overflow-x:hidden}
+@media(min-width:768px){body{font-size:20px}}
+p,li,td,th,div,dd{text-wrap:pretty}
+.wrap{max-width:900px;margin:0 auto;padding-inline:16px}
+h1,h2,h3{line-height:1.45;margin:0;text-wrap:balance}
+h1{font-size:clamp(28px,6vw,44px);font-weight:900;color:var(--deep)}
+h2{font-size:clamp(23px,4vw,32px);font-weight:900;color:var(--deep);margin:72px 0 18px;padding-left:14px;border-left:8px solid var(--goldfill);scroll-margin-top:16px}
+h3{font-size:clamp(19px,3vw,23px);font-weight:700;color:var(--deep);margin:0 0 6px}
+p{margin:0 0 14px}
+b{font-weight:900}
+.note{font-size:16px;color:var(--ink2);line-height:1.75}
+a{color:var(--teal)}
+.hero{background:var(--soft);padding-block:40px 32px;border-bottom:1px solid var(--line);position:relative}
+.hero .in{display:grid;grid-template-columns:1fr 170px;gap:20px;align-items:center}
+.hero img{width:170px;height:auto;display:block}
+.from{display:inline-block;background:var(--goldbg);color:var(--gold);font-weight:700;border-radius:999px;padding:2px 14px;font-size:16px;margin-bottom:12px}
+.lead{font-size:clamp(18px,2.6vw,21px);margin-top:14px}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0;padding:0;list-style:none}
+.toc a{display:inline-flex;align-items:center;text-decoration:none;background:var(--card);border:1px solid var(--line);color:var(--deep);font-weight:700;font-size:16px;border-radius:999px;padding:6px 14px;min-height:44px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px 20px 8px;margin:14px 0}
+.card.gold{background:var(--goldbg);border-color:transparent}
+.card.soft{background:var(--soft);border-color:transparent}
+.quote{border-left:5px solid var(--teal);background:var(--soft);border-radius:0 16px 16px 0;padding:14px 18px;margin:14px 0}
+.quote p{margin:0 0 6px}
+.quote .who{font-size:16px;color:var(--ink2)}
+.robo{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:center;margin:18px 0}
+.robo img{width:96px;height:auto}
+.robo .bub{background:var(--goldbg);border-radius:18px;padding:14px 18px}
+.robo .bub p{margin:0}
+.reels{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:14px 0}
+@media(min-width:640px){.reels{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:860px){.reels{grid-template-columns:repeat(4,1fr)}}
+.reel{border-radius:12px;padding:10px 12px 8px;background:var(--mute);min-width:0;display:flex;flex-direction:column;justify-content:space-between;min-height:118px}
+.reel .t{font-size:16px;line-height:1.55;font-weight:700}
+.reel .v{font-size:16px;color:var(--ink2);margin-top:6px;font-variant-numeric:tabular-nums}
+.reel .who{font-size:16px;display:inline-block;border-radius:6px;padding:0 6px;margin-top:4px;background:var(--card);color:var(--ink2)}
+.reel.work{background:var(--soft);outline:2px solid var(--teal);outline-offset:-2px}
+.reel.work .who{color:var(--teal)}
+.reel.big .v{color:var(--rose);font-weight:900}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:16px;color:var(--ink2)}
+.legend span::before{content:"";display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:6px;vertical-align:-2px;background:var(--mute)}
+.legend span.w::before{background:var(--soft);outline:2px solid var(--teal)}
+.score{display:grid;gap:10px;margin:12px 0}
+.sc{display:grid;grid-template-columns:1fr auto;gap:4px 14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.sc .nm{font-weight:900;color:var(--deep)}
+.sc .pt{font-weight:900;font-size:26px;color:var(--teal);font-variant-numeric:tabular-nums;grid-row:span 2}
+.sc .pt small{font-size:16px;color:var(--ink2);font-weight:700}
+.sc .why{font-size:16px;color:var(--ink2);line-height:1.7}
+.sc.pick{background:var(--goldbg);border:3px solid var(--goldfill)}
+.sc.pick .pt{color:var(--gold)}
+.persona{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:768px){.persona{grid-template-columns:1fr 1fr}}
+.persona dl{margin:0}
+.persona dt{font-weight:900;color:var(--teal);font-size:16px}
+.persona dd{margin:0 0 10px}
+.stairs{display:grid;gap:10px;margin:16px 0}
+.step{display:grid;grid-template-columns:76px 1fr;gap:14px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.step .lv{font-weight:900;color:var(--onaccent);background:var(--teal);border-radius:12px;text-align:center;padding:6px 0;font-size:16px;line-height:1.4}
+.step .pr{font-weight:900;color:var(--deep);font-size:clamp(20px,3vw,24px);font-variant-numeric:tabular-nums}
+.step p{margin:4px 0 0}
+.step.rec{border:3px solid var(--goldfill);background:var(--goldbg)}
+.step.rec .lv{background:var(--goldfill);color:var(--ongold)}
+.badge{display:inline-block;background:var(--goldfill);color:var(--ongold);font-size:16px;font-weight:700;border-radius:999px;padding:0 10px;margin-left:6px;vertical-align:2px}
+.arrow{text-align:center;color:var(--teal);font-weight:900;font-size:20px;line-height:1;margin:-2px 0}
+details{background:var(--card);border:1px solid var(--line);border-radius:18px;margin:14px 0;padding:0 18px}
+details[open]{padding-bottom:10px}
+summary{cursor:pointer;font-weight:900;color:var(--deep);padding:14px 0;min-height:48px;list-style:none;display:flex;align-items:center;gap:10px}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"＋";display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--soft);color:var(--teal);flex:none}
+details[open] summary::before{content:"−"}
+.mini{display:grid;gap:8px;margin:6px 0 10px}
+.mini div{border-top:1px dashed var(--line);padding-top:8px}
+.mini b{color:var(--deep)}
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:14px 0}
+.flow div{background:var(--soft);border-radius:14px;padding:12px 10px;text-align:center;min-width:0}
+.flow b{display:block;color:var(--teal);font-size:16px}
+.flow span{font-size:16px;line-height:1.6;display:block}
+@media(max-width:640px){.flow{grid-template-columns:1fr}.flow div{text-align:left;display:grid;grid-template-columns:5.5em 1fr;gap:8px;align-items:center}}
+ol.ideas{padding-left:1.4em;margin:8px 0 14px}
+ol.ideas li{margin-bottom:6px}
+.two{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:768px){.two{grid-template-columns:1fr 1fr}}
+.ads{display:grid;gap:8px;margin:10px 0}
+.ads div{background:var(--soft);border-radius:14px;padding:10px 14px}
+.ads b{color:var(--teal)}
+.road{position:relative;margin:16px 0;padding-left:30px}
+.road::before{content:"";position:absolute;left:11px;top:6px;bottom:6px;width:4px;background:var(--line);border-radius:2px}
+.leg{position:relative;margin-bottom:18px}
+.leg::before{content:"";position:absolute;left:-27px;top:8px;width:18px;height:18px;border-radius:50%;background:var(--teal);border:3px solid var(--bg)}
+.leg h3 span{color:var(--gold);font-size:16px;margin-right:8px}
+ul.chk{list-style:none;padding:0;margin:6px 0 10px}
+ul.chk li{padding-left:1.6em;position:relative;margin-bottom:6px}
+ul.chk li::before{content:"✓";position:absolute;left:0;color:var(--teal);font-weight:900}
+.num{display:inline-block;background:var(--soft);color:var(--deep);border-radius:8px;padding:0 8px;font-weight:700;font-variant-numeric:tabular-nums;margin:2px 4px 2px 0;font-size:16px}
+.swap{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;margin:8px 0}
+.swap .x{background:var(--rosebg);color:var(--rose);border-radius:12px;padding:8px 12px;font-size:16.5px}
+.swap .o{background:var(--soft);color:var(--deep);border-radius:12px;padding:8px 12px;font-weight:700;font-size:16.5px}
+.swap .ar{color:var(--ink2);font-weight:900}
+@media(max-width:560px){.swap{grid-template-columns:1fr;gap:4px;margin-bottom:14px}.swap .ar{display:none}}
+svg text{font-family:var(--f)}
+.fig{margin:16px 0;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:12px}
+.fig svg{width:100%;height:auto;display:block}
+.fig .sp{display:none;max-width:360px;margin:0 auto}
+@media(max-width:640px){.fig .pc{display:none}.fig .sp{display:block}}
+.end{background:var(--soft);margin-top:72px;padding-block:36px 48px}
+.end .in{display:grid;grid-template-columns:140px 1fr;gap:18px;align-items:center}
+.end img{width:140px}
+footer{font-size:16px;color:var(--ink2);padding:24px 16px 40px;max-width:900px;margin:0 auto;line-height:1.75}
+footer a{word-break:break-all}
+@media(max-width:640px){.hero .in{grid-template-columns:1fr}.hero img{width:96px;position:absolute;right:12px;top:14px}.hero h1{padding-right:84px}.end .in{grid-template-columns:1fr}.end img{width:110px}.robo{grid-template-columns:72px 1fr}.robo img{width:72px}.step{grid-template-columns:64px 1fr;gap:10px;padding:14px}}
+</style></head>
+<body>
+
+<header class="hero"><div class="wrap in">
+<div>
+<span class="from">森川みちあき（fulfull）より</span>
+<h1>みかさんの<br>「声の仕事」地図</h1>
+<p class="lead">9月の対談のあと、ずっと気になっていました。<br>
+AIの使い方も、リールの本数も、僕から見て本当にすごいです。<br>
+だからこそ、<b>届ける相手を一人に決めたら、もっと伸びる</b>と思っています。<br>
+僕とAIチーム（市場調査・商品設計・インスタ・表現チェックの4役）で考えた案を、1枚の地図にしました。<br>
+売り込みではなく、対談のお礼のつもりです。</p>
+<ul class="toc">
+<li><a href="#goal">ゴール</a></li><li><a href="#now">今のリール</a></li><li><a href="#who">誰に</a></li><li><a href="#what">何を</a></li><li><a href="#how">どう届ける</a></li><li><a href="#90">90日</a></li><li><a href="#care">言葉の注意</a></li>
+</ul>
+</div>
+<img src="img/mascot_invite.webp" alt="案内役のロボット" width="170" height="170">
+</div></header>
+
+<main class="wrap">
+
+<h2 id="goal">みかさんを探しに来る人をつくる</h2>
+<p>対談で、みかさんはこう話していました。</p>
+<div class="quote"><p>「今まで私ほとんど業務委託でボイトレのお仕事してたんですけど、AI出てきてからは、自分でこういうの作るんでいかがでしょうって言って、サービス提供できるようになっている」</p><p class="who">— 2026年9月25日 ふるふるラジオ【AI対談】より</p></div>
+<p>もう<b>「販売元」になれる道具はそろっています。</b><br>
+声の数値をグラフと文章にして、PDFで渡せる。<br>
+20年・1,000名の耳がある。<br>
+けんすうさんのように、レッスンの前と後で声が変わった実例もある。</p>
+<p>この地図のゴールは、<b>「声で成果が変わる仕事の人」が、自分からみかさんを探しに来る状態</b>です。<br>
+最初の目印は、<b>本命のプランが毎月1〜2件決まること</b>。<br>
+その先に、月3件の枠が埋まる状態を置きます。</p>
+
+<div class="fig" aria-label="今いる場所からゴールまでの地図">
+<svg class="pc" viewBox="0 0 860 300" role="img">
+<title>今いる場所からゴールまでの4つの道</title>
+<path d="M90 230 C 250 230, 250 90, 420 90 S 600 210, 770 70" fill="none" stroke="var(--line)" stroke-width="14" stroke-linecap="round"/>
+<path d="M90 230 C 250 230, 250 90, 420 90 S 600 210, 770 70" fill="none" stroke="var(--teal)" stroke-width="4" stroke-dasharray="2 12" stroke-linecap="round"/>
+<circle cx="90" cy="230" r="36" fill="var(--mute)"/>
+<text x="90" y="226" text-anchor="middle" font-size="18" font-weight="900" fill="var(--ink)">今</text>
+<text x="90" y="248" text-anchor="middle" font-size="16" fill="var(--ink2)">誰でも向け</text>
+<circle cx="255" cy="150" r="26" fill="var(--teal)"/><text x="255" y="157" text-anchor="middle" font-size="19" font-weight="900" fill="var(--onaccent)">1</text>
+<text x="255" y="200" text-anchor="middle" font-size="17" font-weight="700" fill="var(--deep)">相手を決める</text>
+<circle cx="420" cy="90" r="26" fill="var(--teal)"/><text x="420" y="97" text-anchor="middle" font-size="19" font-weight="900" fill="var(--onaccent)">2</text>
+<text x="420" y="48" text-anchor="middle" font-size="17" font-weight="700" fill="var(--deep)">商品を3段に</text>
+<circle cx="590" cy="160" r="26" fill="var(--teal)"/><text x="590" y="167" text-anchor="middle" font-size="19" font-weight="900" fill="var(--onaccent)">3</text>
+<text x="590" y="212" text-anchor="middle" font-size="17" font-weight="700" fill="var(--deep)">リールを1つの型に</text>
+<text x="690" y="150" text-anchor="middle" font-size="16" fill="var(--ink2)">4 広告で小さく試す</text>
+<circle cx="770" cy="70" r="46" fill="var(--goldfill)"/>
+<text x="770" y="66" text-anchor="middle" font-size="17" font-weight="900" fill="#1C3236">ゴール</text>
+<text x="770" y="87" text-anchor="middle" font-size="16" font-weight="700" fill="#1C3236">本命が毎月</text>
+</svg>
+<svg class="sp" viewBox="0 0 340 470" role="img">
+<title>今いる場所からゴールまでの4つの道</title>
+<path d="M60 40 C 60 110, 280 90, 280 160 S 60 220, 60 290 S 280 340, 280 420" fill="none" stroke="var(--line)" stroke-width="12" stroke-linecap="round"/>
+<path d="M60 40 C 60 110, 280 90, 280 160 S 60 220, 60 290 S 280 340, 280 420" fill="none" stroke="var(--teal)" stroke-width="4" stroke-dasharray="2 11" stroke-linecap="round"/>
+<circle cx="60" cy="40" r="30" fill="var(--mute)"/><text x="60" y="47" text-anchor="middle" font-size="20" font-weight="900" fill="var(--ink)">今</text>
+<text x="102" y="46" font-size="18" fill="var(--ink2)">誰でも向けの発信</text>
+<circle cx="170" cy="100" r="22" fill="var(--teal)"/><text x="170" y="107" text-anchor="middle" font-size="19" font-weight="900" fill="var(--onaccent)">1</text>
+<text x="200" y="106" font-size="17" font-weight="700" fill="var(--deep)">相手を決める</text>
+<circle cx="280" cy="160" r="22" fill="var(--teal)"/><text x="280" y="167" text-anchor="middle" font-size="19" font-weight="900" fill="var(--onaccent)">2</text>
+<text x="246" y="167" text-anchor="end" font-size="17" font-weight="700" fill="var(--deep)">商品を3段に</text>
+<circle cx="170" cy="226" r="22" fill="var(--teal)"/><text x="170" y="233" text-anchor="middle" font-size="19" font-weight="900" fill="var(--onaccent)">3</text>
+<text x="200" y="233" font-size="17" font-weight="700" fill="var(--deep)">リールを1つの型に</text>
+<circle cx="170" cy="356" r="22" fill="var(--teal)"/><text x="170" y="363" text-anchor="middle" font-size="19" font-weight="900" fill="var(--onaccent)">4</text>
+<text x="138" y="363" text-anchor="end" font-size="17" font-weight="700" fill="var(--deep)">広告で小さく試す</text>
+<circle cx="280" cy="420" r="46" fill="var(--goldfill)"/><text x="280" y="416" text-anchor="middle" font-size="17" font-weight="900" fill="#1C3236">ゴール</text><text x="280" y="437" text-anchor="middle" font-size="16" font-weight="700" fill="#1C3236">本命が毎月</text>
+</svg>
+</div>
+
+<h2 id="now">今、リールで起きていること</h2>
+<p>インスタのリールを、新しいものから約30本見せてもらいました。<br>
+四角の中は、リールの一言と再生回数です。</p>
+<div class="legend"><span>いろいろな方に向けた回</span><span class="w">仕事で声を使う場面の回</span></div>
+<div class="reels">
+<div class="reel"><div class="t">今のAIボイスも、すごいんですよ</div><div><div class="v">38回</div><span class="who">AI</span></div></div>
+<div class="reel"><div class="t">AIに任せきりで、いいのかな</div><div><div class="v">51回</div><span class="who">AI</span></div></div>
+<div class="reel"><div class="t">二人目のお産、どうなるんだろう</div><div><div class="v">150回</div><span class="who">子育て</span></div></div>
+<div class="reel"><div class="t">育児書どおりに、できない</div><div><div class="v">93回</div><span class="who">子育て</span></div></div>
+<div class="reel"><div class="t">カラオケで、気持ちよく歌いたい</div><div><div class="v">57回</div><span class="who">カラオケ</span></div></div>
+<div class="reel"><div class="t">声って、生まれつきでしょ？</div><div><div class="v">161回</div><span class="who">みんな</span></div></div>
+<div class="reel work big"><div class="t">声優さんの叫び、喉は大丈夫？</div><div><div class="v">1,162回</div><span class="who">声の仕事</span></div></div>
+<div class="reel work"><div class="t">なんで、また聞き返されるんだろ</div><div><div class="v">151回</div><span class="who">仕事の場面</span></div></div>
+<div class="reel work"><div class="t">抑揚つけて、と言われて</div><div><div class="v">130回</div><span class="who">仕事の場面</span></div></div>
+<div class="reel work"><div class="t">騒がしい店で、また「え？」って</div><div><div class="v">118回</div><span class="who">仕事の場面</span></div></div>
+<div class="reel work"><div class="t">声がこもるって、言われるんだけど</div><div><div class="v">108回</div><span class="who">仕事の場面</span></div></div>
+<div class="reel"><div class="t">完璧になってから、出したい</div><div><div class="v">64回</div><span class="who">気持ち</span></div></div>
+</div>
+<p class="note">ほかの回もふくめ、大半は20〜90回でした。<br>
+1,000回を超えた1本を除くと、平均は約67回。<br>
+仕事の場面の4本は平均約127回で、2倍近く見られています。</p>
+
+<p>数字を並べると、見えてくることが3つあります。</p>
+<div class="card"><h3>① 毎回、届ける相手が変わっている</h3><p>ママ、声優さん、カラオケ好き、発信者、AIに興味のある人。<br>
+見る側からは「この人は誰のための先生？」が伝わりにくいかもしれません。<br>
+インスタも、誰に見せればいいかを覚えにくくなります。</p></div>
+<div class="card"><h3>② 共感される力は、もう証明されている</h3><p>お産の回が150回、声優さんの回は1,000回を超えました。<br>
+場面が目に浮かぶ一言を作る力は、すでにあります。<br>
+その力を<b>「仕事で声を使う人」</b>に向けると、見られ方が変わりそうです。</p></div>
+<div class="card"><h3>③ いちばんの武器「声」を、もっと前に出せる</h3><p>今のリールは、写真と文字の一言で作られています。<br>
+みかさんにしかない<b>「音」と「その場で変わる声」</b>を足すと、ここが一番の伸びしろです。<br>
+インスタの責任者も、本人が作ったオリジナルの投稿をより広く見せる方針を話しています。</p></div>
+
+<div class="robo"><img src="img/mascot_think.webp" alt="" width="96" height="96"><div class="bub"><p>楽しく作れる力があるから、<br>「誰に」を決めるだけで全部がつながります。</p></div></div>
+
+<h2 id="who">主役は、声で数字が変わる営業の人</h2>
+<p>AIチームで、届ける相手の候補を4つ並べて点をつけました。<br>
+（払える力・悩みの切実さ・実績との合い具合・届けやすさ・単価を、各5点で）</p>
+<div class="score">
+<div class="sc pick"><div class="nm">A 個人で数字を持つ営業（保険・不動産・住宅・士業）</div><div class="pt">21<small>点</small></div><div class="why">払える力と単価が最高。声の印象が商談に響き、法人研修にもつながる。</div></div>
+<div class="sc"><div class="nm">B 経営者・講師業（人前で話す人）</div><div class="pt">19<small>点</small></div><div class="why">払える力が高い。推薦の声とも近い。</div></div>
+<div class="sc"><div class="nm">C 音声・動画の発信者</div><div class="pt">16<small>点</small></div><div class="why">実績と一番合う。ただ払える額が小さい。</div></div>
+<div class="sc"><div class="nm">D 声に自信がない一般の方</div><div class="pt">12<small>点</small></div><div class="why">共感は集まるが、お金を払う決め手が弱い。</div></div>
+</div>
+<p><b>主役はA（営業の人）、二番手はB（経営者・講師）</b>にします。<br>
+営業の人にとって、声は商談の印象に響き、その印象が成約を左右することもあります。<br>
+だから「元が取れるか」で考えてもらえるし、会社の研修費にもなりやすい。<br>
+1人が受けて社内で話せば、チーム研修にもつながります。</p>
+<p>対談の最後に僕が「営業マン向けにボイスレッスンしてほしい」と言ったのは、ここです。<br>
+僕自身、営業を受ける側として<b>「この声を毎回の打ち合わせで聞くのか」</b>と感じたことがあります。<br>
+そう感じた相手は、買う候補から外れてしまうんですよね。</p>
+<p class="note">正直に言うと、今の推薦の声はけんすうさん・尾原さんをはじめ発信者の方が中心で、営業の方の事例はまだありません。<br>
+だから最初の30日で、営業の方に届くかを確かめます。<br>
+発信者の方は、紹介と口コミで続く大切なお客さまとして残します。</p>
+
+<h3 style="margin-top:28px">たとえば、こんな人</h3>
+<div class="card soft persona">
+<dl>
+<dt>だれ</dt><dd>42歳・生命保険の営業（歩合多め）。<br>商談の6割がZoom、残りは喫茶店かお客さまの家。</dd>
+<dt>よくある場面</dt><dd>夕方の喫茶店で3件目の商談。<br>「え？」と聞き返されて、同じ説明を2回する。<br>録画を見返すと、声がこもって早口で、語尾が消えている。</dd>
+</dl>
+<dl>
+<dt>こんなことを思っていそう</dt><dd>「話している中身は先輩と同じなのに、なぜか決まらない」<br>「元気に話せと言われても、どう直せばいいのか分からない」<br>「ボイトレは歌う人のものだと思っていた」</dd>
+<dt>今の解決策とお金</dt><dd>営業本、トークの暗記、YouTube。<br>声そのものは、誰にも見てもらったことがない。<br>本やセミナーには月1〜3万円を使っている。</dd>
+</dl>
+</div>
+
+<h2 id="what">今ある道具を、3段の階段に並べ直す</h2>
+<p>新しく作るものは、ほとんどありません。<br>
+声タイプ診断、数値・グラフ・文章のPDF、スポットレッスン。<br>
+<b>すでにあるものを、営業の人向けに名前と順番を整える</b>だけです。<br>
+最初の90日は、この3段だけに絞ります。</p>
+<p class="note">価格はすべて案です。決めるのはみかさんです。</p>
+
+<div class="stairs">
+<div class="step"><div class="lv">入口<br>無料</div><div><h3>営業の声 AI診断</h3><div class="pr">0円</div><p>今の声タイプ診断の名前を変えるだけ。<br>30秒の録音で「お客さまにどう聞こえているか」をタイプと3行で返し、LINEかメールにつなぎます。</p></div></div>
+<div class="arrow">▼</div>
+<div class="step"><div class="lv">お試し</div><div><h3>商談の声レポート</h3><div class="pr">3,980円</div><p>数値・グラフ・印象の文章のPDFに、「商談で効く直し方3つ」とお手本の音声をつけます。<br>Zoomなし。<br>1件20分ほどで作れる形を想定しています。</p></div></div>
+<div class="arrow">▼</div>
+<div class="step rec"><div class="lv">本命</div><div><h3>商談の声 30日プラン<span class="badge">いちばんのおすすめ</span></h3><div class="pr">39,800円</div><p>最初のレポート、Zoom2回、商談練習の録音へのアドバイス4回（LINE）。<br>30日後にもう一度測って、<b>「前と後」を聞き比べ・グラフで比べます。</b><br>変化が形に残るのはこのプランから、という差をはっきりさせます。<br>みかさんの時間は1件あたり約3時間。<br>月2件なら、週1〜2時間です。</p></div></div>
+</div>
+<p>今のスポットレッスン（9,800円）は、そのまま続けて大丈夫です。<br>
+受けた方が7日以内に本命へ移るなら差額でOK、という形にすると自然につながります。</p>
+
+<details><summary>事例が2本そろったら足す段（3ヶ月・毎月・法人）</summary>
+<div class="mini">
+<div><b>声のパーソナル 3ヶ月　98,000円</b><br>Zoom6回、毎週の録音アドバイス、測定3回、本番の商談録画のチェック1回。</div>
+<div><b>声の定期チェック　月4,980円</b><br>毎月1回のレポートと録音アドバイス1回。</div>
+<div><b>営業チームの声の研修　1回15万円（10名まで）</b><br>事前に全員分のレポート、90分の研修（電話・Zoom・対面の場面別）、チーム全体の傾向のまとめ。</div>
+<p class="note">参考にした相場：話し方の単発レッスン1回1.6万〜2.2万円、3ヶ月コース約10万円、法人研修は半日5万〜24万円（各社サイトの掲載値。下に出典）。<br>今の9,800円は、かなり控えめな価格です。</p>
+</div>
+</details>
+
+<h3 style="margin-top:28px">名前と、最初の一言の案</h3>
+<div class="two">
+<div class="card"><p><b>名前</b></p><ul class="chk"><li>営業の声 AI診断</li><li>商談の声レポート</li><li>伝わる声の30日プラン</li></ul></div>
+<div class="card"><p><b>最初の一言</b></p><ul class="chk"><li>「え？」と聞き返されない声へ。<br>30秒の録音で、お客さまにどう届いているかが分かります</li><li>話す中身は同じでも、声で決まる場面がある</li><li>商談の録画、自分の声にがっかりしたことはありませんか</li></ul></div>
+</div>
+<p class="note">対談でみかさんが「名前をつけれてなかった」と話していた「AI診断」を、入口の名前にしました。</p>
+
+<h2 id="how">リールは「聞き比べ」1本の型に</h2>
+<p>シリーズ名は<b>「その声、商談で損してない？」</b>。<br>
+毎回、同じ型の30秒で作ります。<br>
+みかさんが声を出すのは、AとBの聞き比べの部分だけ。<br>
+顔は出さなくて大丈夫です。</p>
+<div class="flow">
+<div><b>0〜2秒</b><span>「同じ一言、どっちから買う？」</span></div>
+<div><b>2〜8秒</b><span>A：よくある営業の声 → B：直した声</span></div>
+<div><b>8〜20秒</b><span>違いを1つだけ（間・語尾・速さ・息）</span></div>
+<div><b>20〜27秒</b><span>今日できる1つ</span></div>
+<div><b>27〜30秒</b><span>「あなたの声はどっち？」→無料AI診断へ</span></div>
+</div>
+<p>撮り方は、スマホ1台で足ります。<br>
+ボイスメモでAとBを録って、画面は口元か手元、または音の波形。<br>
+今の写真づくりはそのまま活かして、聞き比べの回だけ声と波形を主役にしてみませんか。</p>
+<p>キャプションの最後に<b>「声で損していそうな同僚に送ってあげてください」</b>と添えます。<br>
+インスタは「人に送られた回数」を、広く見せるかどうかの大きな手がかりにしていると、責任者が話しています。</p>
+
+<details><summary>ネタの例（最初の12本）</summary>
+<ol class="ideas">
+<li>「ご検討ください」が弱く聞こえる理由（語尾が上がるA・下がるB）</li>
+<li>値段を言う瞬間、早口になっていませんか</li>
+<li>電話の第一声「お世話になっております」3パターン</li>
+<li>Zoomでこもる声は、口の開け方とマイクの距離</li>
+<li>断られたあとの「承知しました」</li>
+<li>社長の朝礼が眠くなる理由（抑揚の幅を波形で）</li>
+<li>セミナー冒頭10秒の息の入れ方</li>
+<li>「えー」「あのー」を減らす1つの方法</li>
+<li>クロージングの「いかがでしょう」の速さ</li>
+<li>騒がしい店でも聞き返されない声（伸びた回の営業版）</li>
+<li>信頼される低さは作れるか（無理に低いA・胸に響かせたB）</li>
+<li>クイズ「どっちから話を聞きたい？」答えはコメントで</li>
+</ol>
+</details>
+
+<div class="two">
+<div class="card"><h3>プロフィールの書き換え案</h3>
+<p>その声、商談で損してない？<br>声の先生20年・1,000名以上<br>▼スマホで30秒・無料のAI声診断</p>
+<p class="note">ハイライトは、AI診断のやり方と結果の見本／前と後の聞き比べ／受けた方の声／スポットレッスン、の順がおすすめです。</p></div>
+<div class="card"><h3>AIと分ける</h3>
+<p><b>AIに任せる：</b>ネタ出し・台本・字幕・波形のデザイン・キャプション・伸びた回の分析</p>
+<p><b>みかさんが撮る：</b>A/Bの声（ここだけは本物の声で）、受けた方の前後の声（同意をもらって）</p></div>
+</div>
+<p>頻度は<b>週3本</b>で十分です。<br>
+量よりも、毎回同じ型で「営業の声の先生」と覚えてもらうことを優先します。<br>
+Voicyは今のまま、信頼を深める場所として続けてください。<br>
+インスタは見つけてもらう入口、と役割を分けます。</p>
+
+<details><summary>広告で小さく試す（1日1,000円×3案・7日）</summary>
+<p>対談で話したABテストです。<br>
+LPも画像もAIで作れるので、何度でも作り直せます。</p>
+<div class="ads">
+<div><b>A 損に気づく</b>　その声、商談で損していませんか（聞き比べを見せる）</div>
+<div><b>B 手軽さ</b>　スマホで30秒。声の印象をAIが数値に・無料（診断の画面を見せる）</div>
+<div><b>C 変化</b>　同じ人の声が、30日でこう変わりました（同意をもらった前後の声）</div>
+</div>
+<p>合計約2.1万円が目安です。<br>
+勝ち負けは「押された数」ではなく、<b>無料診断が1件いくらで取れたか</b>で決めます。<br>
+1件1,500円以下なら続ける、を最初の基準にします。<br>
+相手は30〜59歳、興味は営業・プレゼン・起業から始めます。<br>
+診断ページが整ってから、出すかどうかを一緒に決めましょう。</p>
+</details>
+
+<h2 id="90">最初の90日</h2>
+<div class="road">
+<div class="leg"><h3><span>1〜30日</span>営業の人に届くかを確かめる</h3>
+<ul class="chk"><li>リールを30日間、営業の場面の聞き比べにする（週3本で12本）</li><li>無料診断の名前と最初の一言を営業向けに変える</li><li>営業の方3人に、本命をモニター価格で受けてもらい「前と後」を事例にする。<br>モニターの方は、僕のつながりからも声をかけられます</li></ul>
+<p>目安：<span class="num">無料診断 30件</span><span class="num">うち営業の人 半分以上</span><span class="num">レポート 3件</span></p></div>
+<div class="leg"><h3><span>31〜60日</span>本命を売る形を固める</h3>
+<ul class="chk"><li>事例2本を入れて、本命の申込ページを作る</li><li>広告を試すなら、ここから</li></ul>
+<p>目安：<span class="num">無料診断 月50〜100件</span><span class="num">無料→レポート 10%</span><span class="num">レポート→本命 20%</span><span class="num">本命 月1〜2件</span></p></div>
+<div class="leg"><h3><span>61〜90日</span>次の段を足すか決める</h3>
+<ul class="chk"><li>本命が続いて決まるなら、3ヶ月コースや法人研修を足す</li><li>法人は、受けた方の会社か紹介の営業チーム1社で1回試す</li><li>反応が弱ければ、二番手（経営者・講師）向けに一言だけ変えて同じ商品を出す</li></ul></div>
+</div>
+<div class="robo"><img src="img/mascot_point.webp" alt="" width="96" height="96"><div class="bub"><p>法人の最初の1社は、保険代理店が入りやすいかも。<br>電話とZoomの面談が多くて、声の差がそのまま出る仕事です。</p></div></div>
+<p>保険代理店やモニターの紹介は、僕のほうでも探せます。<br>
+ここは遠慮なく使ってください。</p>
+
+<h2 id="care">信頼を守るための、言葉の言い換え</h2>
+<p>どれも今のサービスの良さはそのままで、<b>広告の審査や法律の面で通りやすくするための言い換え</b>です。<br>
+表現チェック役のAIと確かめました。</p>
+<div class="swap"><div class="x">声の人間ドック・健康状態がわかる</div><div class="ar">→</div><div class="o">声の印象レポート</div></div>
+<div class="swap"><div class="x">あなたは猫背ですね</div><div class="ar">→</div><div class="o">姿勢を変えると響きが変わることがあります</div></div>
+<div class="swap"><div class="x">成約率が上がる・売上が上がる</div><div class="ar">→</div><div class="o">商談で「また話したい」と思われる声へ</div></div>
+<div class="swap"><div class="x">現在が最安値</div><div class="ar">→</div><div class="o">値上げが決まったときだけ「◯月◯日から◯円」と書く</div></div>
+<div class="swap"><div class="x">話は声と見た目で9割決まる</div><div class="ar">→</div><div class="o">声で聞くと、文章より有能・知的だと判断されやすい研究があります</div></div>
+<div class="card" style="margin-top:18px">
+<ul class="chk">
+<li>診断ページとレポートに「医療の診断ではありません。かすれや痛みが続くときは耳鼻咽喉科へ」と一行</li>
+<li>録音を受け取るときは「声の分析とレポート作成に録音を使うことに同意します」と短く。<br>保存期間とAIサービス名は、詳しい説明の側に</li>
+<li>けんすうさん・尾原さんのお名前を広告に使うときは、先に本人から使ってよい範囲の許可を（LPの実績欄での紹介が安心）</li>
+<li>「月3名まで」は理由を添えて、事実のとおりに（「一人ずつ丁寧に分析するため」）</li>
+</ul>
+<p class="note">研究：同じ売り込みでも、文章で読むより声で聞いたほうが、有能・知的だと判断された（Schroeder &amp; Epley, 2015, Psychological Science）。<br>
+声と成約率を直接結びつけた研究はまだないので、受けた方の前後の録音で見せるのが、いちばん強い根拠になります。</p>
+</div>
+
+</main>
+
+<section class="end"><div class="wrap in">
+<img src="img/mascot_base.webp" alt="" width="140" height="140">
+<div>
+<h2 style="margin-top:0">次の一歩は、ひとつだけ</h2>
+<p>まずは<b>聞き比べのリールを1本、一緒に作ってみませんか。</b><br>
+価格も名前も、みかさんがしっくりくる形に変えてもらって大丈夫です。<br>
+返事は、いつものメッセージに一言ください。</p>
+<p style="margin:0">森川みちあき</p>
+</div>
+</div></section>
+
+<footer>この地図は、2026年10月24日時点のインスタ・Voicy・noteの公開情報と、9月25日の対談をもとに作りました。<br>
+相場の出典：<a href="https://voicecamp.jp/blog/recommended-business-speakingclass/">voicecamp（話し方教室の料金比較）</a>／<a href="https://www.grop.co.jp/outsourcingpro/kenshudaiko/">研修費用の相場</a>／<a href="https://www.akf.co.jp/c1_company/fee.html">研修会社の料金表の例</a>。<br>価格は時期によって変わります。<br>
+研究：<a href="https://www.psychologicalscience.org/news/minds-business/the-sound-of-employability-interviewers-judge-your-voice.html">Schroeder &amp; Epley (2015)</a><br>
+インスタの方針：<a href="https://techcrunch.com/2024/04/30/instagram-is-updating-its-ranking-systems-to-surface-more-content-from-smaller-original-creators">TechCrunch（オリジナル投稿の優遇）</a>／<a href="https://buffer.com/resources/instagram-algorithm-2">Buffer（送られた回数の重み）</a></footer>
+</body></html>
