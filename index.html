@@ -123,6 +123,13 @@ svg text{font-family:var(--f)}
 .fig svg{width:100%;height:auto;display:block}
 .fig .sp{display:none;max-width:360px;margin:0 auto}
 @media(max-width:640px){.fig .pc{display:none}.fig .sp{display:block}}
+.day{position:relative;margin:16px 0;display:grid;gap:10px}
+.tm{display:grid;grid-template-columns:72px 1fr;gap:12px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px}
+.tm span{font-weight:900;color:var(--onaccent);background:var(--teal);border-radius:10px;text-align:center;padding:4px 0;font-size:16px;font-variant-numeric:tabular-nums}
+.tm p{margin:0}
+.tm.gold{background:var(--goldbg);border:3px solid var(--goldfill)}
+.tm.gold span{background:var(--goldfill);color:var(--ongold)}
+@media(max-width:640px){.tm{grid-template-columns:58px 1fr;gap:10px;padding:12px 14px}}
 .end{background:var(--soft);margin-top:72px;padding-block:36px 48px}
 .end .in{display:grid;grid-template-columns:140px 1fr;gap:18px;align-items:center}
 .end img{width:140px}
@@ -142,7 +149,7 @@ AIの使い方も、リールの本数も、僕から見て本当にすごいで
 僕とAIチーム（市場調査・商品設計・インスタ・表現チェックの4役）で考えた案を、1枚の地図にしました。<br>
 売り込みではなく、対談のお礼のつもりです。</p>
 <ul class="toc">
-<li><a href="#goal">ゴール</a></li><li><a href="#now">今のリール</a></li><li><a href="#who">誰に</a></li><li><a href="#what">何を</a></li><li><a href="#how">どう届ける</a></li><li><a href="#90">90日</a></li><li><a href="#care">言葉の注意</a></li>
+<li><a href="#goal">ゴール</a></li><li><a href="#mirai">3ヶ月後</a></li><li><a href="#now">今のリール</a></li><li><a href="#who">誰に</a></li><li><a href="#what">何を</a></li><li><a href="#how">どう届ける</a></li><li><a href="#90">90日</a></li><li><a href="#care">言葉の注意</a></li>
 </ul>
 </div>
 <img src="img/mascot_invite.webp" alt="案内役のロボット" width="170" height="170">
@@ -197,6 +204,31 @@ AIの使い方も、リールの本数も、僕から見て本当にすごいで
 <circle cx="280" cy="420" r="46" fill="var(--goldfill)"/><text x="280" y="416" text-anchor="middle" font-size="17" font-weight="900" fill="#1C3236">ゴール</text><text x="280" y="437" text-anchor="middle" font-size="16" font-weight="700" fill="#1C3236">本命が毎月</text>
 </svg>
 </div>
+
+<h2 id="mirai">たとえば3ヶ月後の、ある1日</h2>
+<p>この地図どおりに進んだら、こんな日が来るかもしれません。<br>
+想像するだけで、ちょっとワクワクしませんか。</p>
+<div class="day">
+<div class="tm"><span>6:10</span><p>いつものVoicyを収録。<br>
+今日は「値段を言う瞬間の声」の裏話。<br>
+コメント欄に、営業の方から「明日の商談で試します」。</p></div>
+<div class="tm"><span>9:00</span><p>スマホに通知。<br>
+夜のうちに、無料のAI診断が<b>2件</b>届いている。<br>
+保険の営業の方と、研修講師の方。<br>
+AIが下書きした結果に、みかさんの声で一言ずつ返す。</p></div>
+<div class="tm"><span>13:00</span><p>本命プランの方と、30日目のZoom。<br>
+1日目と今日の声を並べて再生すると、本人が先に笑い出す。<br>
+「え、これ同じ人ですか」</p></div>
+<div class="tm"><span>16:00</span><p>聞き比べのリールを1本収録。<br>
+AとB、15秒ずつ。<br>
+台本も字幕もAIが用意済みなので、撮るのは声だけ。</p></div>
+<div class="tm gold"><span>夜</span><p>受けた方の会社の所長さんから、メッセージ。<br>
+<b>「うちの営業チームでも、やってもらえませんか」</b></p></div>
+</div>
+<p>業務委託でもなく、みかさんが自分で作ったサービスで、<br>
+<b>みかさんの声と耳が、そのまま仕事の柱になっている1日</b>です。<br>
+ここから、その道のりを地図にしていきます。</p>
+<p class="note">※ここに出てくる声や場面は、想像の一例です。</p>
 
 <h2 id="now">今、リールで起きていること</h2>
 <p>公開されているリールを、新しいものから約30本見ました。<br>
@@ -402,8 +434,11 @@ LPも画像もAIで作れるので、何度でも作り直せます。</p>
 <div>
 <h2 style="margin-top:0">次の一歩は、ひとつだけ</h2>
 <p>まずは<b>聞き比べのリールを1本、一緒に作ってみませんか。</b><br>
-価格も名前も、みかさんがしっくりくる形に変えてもらって大丈夫です。<br>
-返事は、いつものメッセージに一言ください。</p>
+価格も名前も、みかさんがしっくりくる形に変えてもらって大丈夫です。</p>
+<p>走りながら一緒に考える相手がほしくなったら、<br>
+僕でよければ、いつでも声をかけてください。<br>
+診断ページや広告のことも、横で一緒に考えられます。<br>
+まずは話すだけでも大丈夫です。</p>
 <p style="margin:0">森川みちあき</p>
 </div>
 </div></section>
